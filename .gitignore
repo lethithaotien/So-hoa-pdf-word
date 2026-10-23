@@ -1,0 +1,12 @@
+# Bỏ qua thư mục môi trường ảo Python (nếu có)
+venv/
+.venv/
+env/
+
+# Bỏ qua bộ nhớ đệm của Python
+__pycache__/
+*.py[cod]
+
+# Bỏ qua các file PDF/Word chạy thử nghiệm trên máy để không bị đẩy lên GitHub
+*.pdf
+*.docx
